@@ -39,10 +39,12 @@ Assistant Components:
 | Run | Activation of an Assistant to begin running based on the contents of the Thread. The Assistant uses its configuration and the Thread’s Messages to perform tasks by calling models and tools. As part of a Run, the Assistant appends Messages to the Thread. |
 | Run Step | A detailed list of steps the Assistant took as part of a Run. An Assistant can call tools or create Messages during it’s run. Examining Run Steps allows you to understand how the Assistant is getting to its final results. |
 
-Check region availabilty of [Azure OpenAI Models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models?tabs=global-standard%2Cstandard-chat-completions)
+### Useful Links
 
-Check [Azure OpenAI Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
+- Check region availabilty of [Azure OpenAI Models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models?tabs=global-standard%2Cstandard-chat-completions)
 
-Sample Assitants:
+- Check [Azure OpenAI Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
 
-1. Travel Agent Assistant - ([Calling Functions](./Code/AzOpenAI-Assistants/CallingFunctions.ipynb))
+### Sample Assitants
+
+1. Travel Agent Assistant - ([Calling Functions](../Code/AzOpenAI-Assistants/CallingFunctions.ipynb))
