@@ -48,3 +48,13 @@ Assistant Components:
 ### Sample Assitants
 
 1. Travel Agent Assistant - ([Calling Functions](../Code/AzOpenAI-Assistants/CallingFunctions.ipynb))
+
+    - **Creating Functions:** Learn to create functions that provide travel-related information, such as serviced countries, travel budgets, and weather conditions.
+    - **Using Azure OpenAI:** Understand how to create an Azure OpenAI client and use it to create an assistant that autonomously determines which functions and arguments to use.
+    - **Function Execution:** See how the assistant identifies and executes the appropriate functions based on user queries, and how it handles different states and responses.
+
+2. [File Search](../Code/AzOpenAI-Assistants/FileSearch.ipynb) Tool.
+
+    - **Functionality:** The File Search tool parses and chunks documents, creates and stores embeddings, and retrieves relevant content using vector and keyword search.
+    - **Limitations:** It has restrictions like a 512MB file size limit, 5 million token limit per file, and no support for image parsing or structured file formats like CSV or JSON.
+    - **Implementation:** Configure Azure, create a vector store, upload files, and use the File Search tool to retrieve content, emphasizing the need to delete the assistant to clean up resources after use.
