@@ -42,3 +42,7 @@ Assistant Components:
 Check region availabilty of [Azure OpenAI Models](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/models?tabs=global-standard%2Cstandard-chat-completions)
 
 Check [Azure OpenAI Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/)
+
+Sample Assitants:
+
+1. Travel Agent Assistant - ([Calling Functions](./Code/AzOpenAI-Assistants/CallingFunctions.ipynb))
