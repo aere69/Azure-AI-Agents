@@ -55,6 +55,9 @@ Assistant Components:
 
 2. Nasa Books Assistant - [File Search](../Code/AzOpenAI-Assistants/FileSearch.ipynb) Tool.
 
+    Azure OpenAI assistance file search acts as a RAG system. It automatically chunks documents and stores embeddings in a vector store, and does search and content retreival. Use this if you need to access a dynamic file, such as an email.
+    Not suitable as enterprise RAG system because of it limitations.
+
     - **Functionality:** The File Search tool parses and chunks documents, creates and stores embeddings, and retrieves relevant content using vector and keyword search.
     - **Limitations:** It has restrictions like a 512MB file size limit, 5 million token limit per file, and no support for image parsing or structured file formats like CSV or JSON.
     - **Implementation:** Configure Azure, create a vector store, upload files, and use the File Search tool to retrieve content, emphasizing the need to delete the assistant to clean up resources after use.
