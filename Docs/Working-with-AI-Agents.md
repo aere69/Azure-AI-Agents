@@ -53,7 +53,7 @@ Assistant Components:
     - **Using Azure OpenAI:** Understand how to create an Azure OpenAI client and use it to create an assistant that autonomously determines which functions and arguments to use.
     - **Function Execution:** See how the assistant identifies and executes the appropriate functions based on user queries, and how it handles different states and responses.
 
-2. [File Search](../Code/AzOpenAI-Assistants/FileSearch.ipynb) Tool.
+2. Nasa Books Assistant - [File Search](../Code/AzOpenAI-Assistants/FileSearch.ipynb) Tool.
 
     - **Functionality:** The File Search tool parses and chunks documents, creates and stores embeddings, and retrieves relevant content using vector and keyword search.
     - **Limitations:** It has restrictions like a 512MB file size limit, 5 million token limit per file, and no support for image parsing or structured file formats like CSV or JSON.
