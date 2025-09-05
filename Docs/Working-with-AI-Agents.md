@@ -61,3 +61,13 @@ Assistant Components:
     - **Functionality:** The File Search tool parses and chunks documents, creates and stores embeddings, and retrieves relevant content using vector and keyword search.
     - **Limitations:** It has restrictions like a 512MB file size limit, 5 million token limit per file, and no support for image parsing or structured file formats like CSV or JSON.
     - **Implementation:** Configure Azure, create a vector store, upload files, and use the File Search tool to retrieve content, emphasizing the need to delete the assistant to clean up resources after use.
+
+3. Run code iteratively to solve challenging code, math, and data analysis problems - [Code Interpreter](../Code/AzOpenAI-Assistants/CodeInterpreter.ipynb)
+
+    Code Interpreter allows to write and run Python code in a sandbox execution environment. With code interpreter enabled, the assistant can run code iteratively to solve challenging code, math and data analysis problems. When the assistant creates a code that fails to run, it can iterate on this code by modifiying and running different code until the code execution succeeds.
+
+    - **Functionality:** The code interpreter allows the assistants API to write and run Python code in a sandbox environment to solve complex problems, including code, math, and data analysis tasks.
+    - **Process:** It iterates on code that fails to run by modifying and re-running it until successful execution is achieved.
+    - **Application:** In the example provided, the code interpreter uses Python to analyze a CSV dataset of bigfoot sightings and generate a column chart of the top 10 sightings per year.
+
+    This tool is particularly useful for automating and solving challenging data analysis problems using Python within the Azure OpenAI environment.
